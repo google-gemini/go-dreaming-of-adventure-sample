@@ -11,7 +11,6 @@ abilities. With user input, Gemini writes a novella one section at a time.
 </picture>
 </a>
 
-
 ## Environment setup
 
 This sample app can be opened in _Project IDX_, or run in your local dev environment.
@@ -21,11 +20,15 @@ This sample app can be opened in _Project IDX_, or run in your local dev environ
 1. Open this repo in Project IDX:
    - [Open in Project IDX](https://idx.google.com/import?url=https://github.com/google-gemini/go-dreaming-of-adventure-sample)
    - Wait for the import process to complete
+   - Open the IDX Panel and click "Authenticate" with the Gemini API integration. 
+   - Once authenticated, click to get a key which will be copied to your keyboard.
+   - Add the key to the env variable section in `dev.nix`.
 
 1. Open a new terminal window:
    - Open the command palette (CTRL/CMD-SHIFT-P)
    - Begin typing **terminal**
    - Select **Terminal: Create New Terminal**
+   - Run `go run .`
 
 ## Local dev environment
 

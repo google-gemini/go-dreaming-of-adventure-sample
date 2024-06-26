@@ -9,7 +9,9 @@
   ];
 
   # Sets environment variables in the workspace
-  env = {};
+  env = {
+    API_KEY = "";
+  };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
@@ -37,6 +39,9 @@
     workspace = {
       # Runs when a workspace is first created
       onCreate = {
+         default.openFiles = [
+          "README.md" "adventure.go"
+         ];
         # Example: install JS dependencies from NPM
         # npm-install = 'npm install';
       };
