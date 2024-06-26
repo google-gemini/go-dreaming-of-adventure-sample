@@ -22,7 +22,7 @@ This sample app can be opened in _Project IDX_, or run in your local dev environ
    - Wait for the import process to complete
    - Open the IDX Panel and click "Authenticate" with the Gemini API integration. 
    - Once authenticated, click to get a key which will be copied to your keyboard.
-   - Add the key to the env variable section in `dev.nix`.
+   - Add the key to the env variable section in `.idx/dev.nix`.
 
 1. Open a new terminal window:
    - Open the command palette (CTRL/CMD-SHIFT-P)
